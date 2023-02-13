@@ -189,15 +189,9 @@ footer p{
 
 
 
-/* Mobile L: 425px and above */
-@media (min-width: 26.56em){
-  html{
-      font-size: 64%;
-  }
-}
 
-/* Tablet: 768px and above */
-@media (min-width: 48em){
+/* Portrait Tablet / Phone L: 600px - 768px */
+@media (min-width: 37.5em){
   html{
       font-size: 66%;
   }
@@ -226,14 +220,30 @@ footer p{
   }
 }
 
-/* Desktop: 1024px and above */
-@media (min-width: 64em){
+/* Landscape Tablet: 768px - 992px  */
+@media (min-width: 48em){
   html{
     font-size: 68%;
   }
 
-  .project-tile{
+}
+
+/* Laptop, 992px - 1200px) */
+@media (min-width: 62em){
+  html{
+    font-size: 69%;
+  }
+  
+    .project-tile{
     flex-basis: calc(33% - 1.6rem);
     flex-grow:1;
   }
-}
+  
+  }
+
+/* Laptop L: 1200px and above */
+@media (min-width: 75em){
+  html{
+    font-size: 70%;
+  }
+  }
